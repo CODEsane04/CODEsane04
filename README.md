@@ -3,23 +3,6 @@
 # Hi! I'm Debjit Ghorai 👋
 **Full-Stack Engineer & ML Enthusiast from IIT Jodhpur**
 
-</div>
-
-<p >
-<!-- Social Links / Badges -->
-<a href="[https://www.linkedin.com/in/DebjitGhorai](https://www.linkedin.com/in/debjit-ghorai-23a22728a/)" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-</a>
-<a href="mailto:debjitghorai18@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/>
-</a>
-<a href="https://leetcode.com/GODsane04" target="_blank">
-    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Badge"/>
-</a>
-</p>
-
----
-
 ## 🚀 Key Technologies & Tools
 
 <div>
