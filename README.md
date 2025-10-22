@@ -1,7 +1,7 @@
 <div>
 
 # Hi! I'm Debjit Ghorai 👋
-**Full-Stack Engineer & ML Enthusiast from IIT Jodhpur**
+**Full-Stack Engineer & AI Enthusiast from IIT Jodhpur**
 
 ## 🚀 Key Technologies & Tools
 
