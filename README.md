@@ -1,60 +1,93 @@
-<div>
+<div align="center">
 
-# Hi! I'm Debjit Ghorai 👋
-**Full-Stack Engineer & AI Enthusiast from IIT Jodhpur**
+<!-- Typing animation -->
+<a href="https://github.com/YOUR-USERNAME">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=FFFFFF&center=true&vCenter=true&width=800&lines=Hi%2C+I%27m+Debjit%2C+building+agentic+systems+and+workflows" alt="Typing SVG" />
+</a>
 
-## 🚀 Key Technologies & Tools
-
-<div>
-<!-- Programming Languages -->
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-
-<!-- Backend -->
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-
-<!-- Frontend -->
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-
-<!-- ML / Data -->
-<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
 </div>
 
 ---
 
-## 💡 Featured Projects
+### `whoami`
 
-### 1. Visual Tutorial Search (Link Hunter)
-**Full-Stack Chrome Extension | Node.js API | Python Machine Learning Service**  
-Instantly provides relevant YouTube tutorials based on any right-clicked image online. Showcases inter-process communication (Node.js/Python), full-stack architecture, and ML integration.
+```python
+class Debjit:
+    def __init__(self):
+        self.role = "CS Undergrad @ IIT Jodhpur | Building Agentic AI Systems"
+        self.focus = ["LLM Orchestration", "RAG Pipelines", "AI Agents"]
+        self.currently_building = "Autonomous multi-agent pipelines that grade their own homework"
+        self.fun_fact = "I optimize latency the way some people optimize their morning coffee routine"
 
-[View Repository](https://github.com/CODEsane04/Link-Hunter.git)
-
-### 2. URL Shortener
-**Full-Stack MERN Application | Authentication & Scalability**  
-A personal project demonstrating end-to-end web development, featuring secure user authentication (JWT and HTTP-only cookies), MVC architecture separation, and efficient database interaction (MongoDB) to handle and track redirection requests.
-
-[View Repository](https://github.com/CODEsane04/URL-shortener.git) 
-
-### 3. Grid-Navigator
-**Interactive Web Application | Algorithmic Visualization**  
-Visualizes pathfinding algorithms like Dijkstra's and A* in real-time. Demonstrates strong command over core JavaScript and algorithms.
-
-[View Repository](https://github.com/hecker-200/DSAFINAL.git)
+    def say_hi(self):
+        return "let's build something that doesn't hallucinate 🤝"
+```
 
 ---
 
-<h2>💻 LeetCode Stats</h2>
-<div">
+### 🛠️ Core Projects
 
-<!-- Overall LeetCode Stats -->
-<img src="https://leetcode-stats.vercel.app/api?username=GODsane04&theme=dark&show_icons=true&hide_border=false" alt="LeetCode Stats" />
+**🔗 [Link Hunter](https://github.com/CODEsane04/link-hunter)** — *AI Chrome Extension*
+A full-stack extension backed by FastAPI that analyzes web images and retrieves context-aware YouTube tutorials via a 2-stage multimodal pipeline (Gemma-4-31B-IT + Gemini embeddings + cosine re-ranking). A/B tested across 4 system prompts on a golden dataset, graded by an LLM-as-a-Judge.
+&nbsp;|&nbsp; `FastAPI` `LangSmith` `Pydantic` `Multimodal`
+
+**📰 [Multi-Agent Newsletter](https://github.com/YOUR-USERNAME/multi-agent-newsletter)** — *Autonomous News Curator*
+A stateful DAG of 4 specialized LLM agents across 7 functional nodes, built on LangGraph. Implements an LLM-as-a-judge critic loop with a 3-retry limit and a hybrid RAG pipeline to keep every briefing grounded — zero context flooding, zero hallucinations.
+`LangGraph` `LangChain` `RAG` `Reflection Pattern`
+
+> I test my agents like they're production systems — not demos.
+
+---
+
+### 🧰 Tech Stack
+
+**Languages**
+<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+**AI / LLM Engineering**
+<br/>
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+**Vector DBs & Retrieval**
+<br/>
+![Chroma](https://img.shields.io/badge/ChromaDB-121212?style=for-the-badge)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-4285F4?style=for-the-badge)
+
+**Evaluation & Observability**
+<br/>
+![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge)
+![RAGAS](https://img.shields.io/badge/RAGAS-8A2BE2?style=for-the-badge)
+
+**Tools & Platforms**
+<br/>
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![AWS Bedrock](https://img.shields.io/badge/Amazon_Bedrock-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+
+---
+
+### 🏆 A few numbers that made me smile
+
+- 🎓 Top 3% — JEE Advanced'23 (AIR 8,772 / 2.5 lakh students)
+- 🎓 Top 1% — JEE Mains'23 (AIR 14,772 / 12 lakh students)
+
+---
+
+<div align="center">
+
+### 📫 Let's connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:debjitghorai18@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/YOUR-LEETCODE)
+
+<img src="https://komarev.com/ghpvc/?username=YOUR-USERNAME&style=flat-square&color=6C63FF" alt="profile views" />
+
 </div>
-
